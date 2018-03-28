@@ -1,0 +1,16 @@
+﻿<Window x:Class="PengingatTugasWPF.Add"
+        xmlns:xcdg="http://schemas.xceed.com/wpf/xaml/datagrid" 
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PengingatTugasWPF"
+        mc:Ignorable="d"
+        Title="Add" Height="300" Width="300">
+    <Grid>
+        <xctk:DateTimePicker Name="deadline" Margin="10,155,10,90" Format="Custom" FormatString="dd/MM/yyyy HH.mm.ss"></xctk:DateTimePicker>
+        <TextBox x:Name="judul" HorizontalAlignment="Left" Height="23" Margin="79,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="104,198,0,0" VerticalAlignment="Top" Width="75" Click="Tambah"/>
+    </Grid>
+</Window>
